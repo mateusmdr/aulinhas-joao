@@ -3,4 +3,10 @@ export class Produto {
     preco;
     imagem;
     codigoDeBarras;
+
+    imprime() {
+        console.log({
+            codigoDeBarras: this.codigoDeBarras
+        });
+    }
 };
